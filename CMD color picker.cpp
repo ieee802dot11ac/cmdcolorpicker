@@ -10,7 +10,7 @@ int main()
 
     int selection;
     std::string a;
-    std::cout << "Select a color from 1 to 4";
+    std::cout << "Select a number from 1 to 4";
     std::cin >> selection;
     switch (selection) {
         case(4): { std::cout << "your rgb value is " << int(four.r) << ", " << int(four.g) << ", " << int(four.b); break; }
